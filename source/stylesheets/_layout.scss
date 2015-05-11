@@ -1,0 +1,11 @@
+section {
+  @include row();
+
+  &:nth-child(even) {
+    background: $light-gray;
+  }
+
+  .container {
+    @include outer-container;
+  }
+}
