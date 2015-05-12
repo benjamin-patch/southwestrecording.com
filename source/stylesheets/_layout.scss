@@ -7,5 +7,6 @@ section {
 
   .container {
     @include outer-container;
+    @include padding(1em);
   }
 }
