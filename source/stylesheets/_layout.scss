@@ -11,6 +11,10 @@ footer {
   @include padding(1em);
 }
 
+header, footer, .page-title {
+  text-align: center;
+}
+
 section {
   &:nth-child(even) {
     background: $light-gray;
