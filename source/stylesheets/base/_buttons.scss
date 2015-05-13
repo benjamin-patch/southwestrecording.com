@@ -29,3 +29,14 @@ button {
     opacity: 0.5;
   }
 }
+
+.nav-buttons {
+  li {
+    @extend button;
+    width: 23%;
+    margin: 0 0.2em;
+    a {
+      color: #fff;
+    }
+  }
+}

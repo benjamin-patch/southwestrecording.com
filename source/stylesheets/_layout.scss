@@ -6,12 +6,16 @@ footer {
   @include row();
 }
 
-.container {
+.container,
+.nav-buttons {
   @include outer-container;
   @include padding(1em);
 }
 
-header, footer, .page-title {
+header,
+nav,
+footer,
+.page-title {
   text-align: center;
 }
 
