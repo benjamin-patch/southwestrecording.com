@@ -1,12 +1,18 @@
-section {
+header,
+nav,
+article,
+section,
+footer {
   @include row();
+}
 
+.container {
+  @include outer-container;
+  @include padding(1em);
+}
+
+section {
   &:nth-child(even) {
     background: $light-gray;
-  }
-
-  .container {
-    @include outer-container;
-    @include padding(1em);
-  }
+  } 
 }
