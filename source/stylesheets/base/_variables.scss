@@ -2,12 +2,26 @@
 $base-font-family: $helvetica;
 $heading-font-family: $base-font-family;
 
-// Font Sizes
-$base-font-size: 1em;
+// Font sizes
+$base-font-size: 1.2em;
+$h1-font-size: 2.5em;
+$h2-font-size: 2.25em;
+$h3-font-size: 2em;
+$h4-font-size: 1.75em;
+$h5-font-size: 1.25em;
+$h6-font-size: 1em;
+
+// Heading sizes on small screens
+$h1-font-reduction: em(10);
+$h2-font-reduction: em(10);
+$h3-font-reduction: em(5);
+$h4-font-reduction: em(5);
+$h5-font-reduction: 0;
+$h6-font-reduction: 0;
 
 // Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
+$base-line-height: 1.6;
+$heading-line-height: 1.4;
 
 // Other Sizes
 $base-border-radius: 3px;
