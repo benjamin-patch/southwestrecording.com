@@ -1,7 +1,7 @@
-@import "normalize";
-@import "bourbon/bourbon";
+@import "lib/normalize";
+@import "lib/bourbon/bourbon";
 @import "base/grid-settings";
-@import "neat/neat";
+@import "lib/neat/neat";
 @import "base/base";
 
 @import "layout";
