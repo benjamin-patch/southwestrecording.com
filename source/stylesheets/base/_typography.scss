@@ -5,6 +5,10 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  @include selection {
+    background-color: $dark-gray;
+    color: $light-gray;
+  }
 }
 
 h1,
