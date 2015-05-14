@@ -2,6 +2,7 @@ header,
 nav,
 article,
 section,
+aside,
 footer {
   @include row();
 }
@@ -23,4 +24,9 @@ section {
   &:nth-child(even) {
     background: $light-gray;
   } 
+}
+
+aside {
+  background: $dark-gray;
+  color: $light-gray;
 }

@@ -71,3 +71,8 @@ picture {
   margin: 0;
   max-width: 100%;
 }
+
+blockquote {
+  border-left: $base-border;
+  padding: 0 1.5em;
+}
