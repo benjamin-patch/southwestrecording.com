@@ -4,6 +4,7 @@ body {
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  font-weight: $base-font-weight;
   line-height: $base-line-height;
   @include selection {
     background-color: $action-color;
@@ -18,6 +19,7 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }

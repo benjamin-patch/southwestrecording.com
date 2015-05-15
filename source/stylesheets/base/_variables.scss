@@ -1,9 +1,9 @@
 // Typography
-$base-font-family: $helvetica;
-$heading-font-family: $base-font-family;
+$base-font-family: 'Open Sans', sans-serif;
+$heading-font-family: 'Roboto Slab', serif;
 
 // Font sizes
-$base-font-size: 1.2em;
+$base-font-size: 1.3em;
 $h1-font-size: 2.5em;
 $h2-font-size: 2.25em;
 $h3-font-size: 2em;
@@ -19,8 +19,12 @@ $h4-font-reduction: em(5);
 $h5-font-reduction: 0;
 $h6-font-reduction: 0;
 
+// Font weights
+$base-font-weight: 400;
+$heading-font-weight: 400;
+
 // Line height
-$base-line-height: 1.6;
+$base-line-height: 1.7;
 $heading-line-height: 1.4;
 
 // Other Sizes
