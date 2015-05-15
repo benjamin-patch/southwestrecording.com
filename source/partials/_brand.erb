@@ -1,8 +1,15 @@
 <header>
-  <div class="container">
-    <h1>
+  <div>
+    <h1 id="site-name">
       <%= link_to "Southwest Recording", "/" %>
     </h1>
+    <a href="/">
+      <%= image_tag("southwest-recording.svg",
+            alt: "Southwest Recording",
+            id: "logo") %>
+    </a>
+  </div>
+  <div id="phone-social">
     <%= link_to "(719) 494-9641",
           "tel:1-719-494-9641" %> |
     <%= link_to "Facebook",

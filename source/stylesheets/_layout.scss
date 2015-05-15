@@ -20,6 +20,14 @@ footer,
   text-align: center;
 }
 
+#logo {
+  padding: 0.8em 0.5em 0 0.5em;
+}
+
+#phone-social {
+  padding: 0 0.5em;
+}
+
 section {
   &:nth-child(even) {
     background: $light-gray;
