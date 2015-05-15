@@ -5,7 +5,7 @@ button {
   background-color: $action-color;
   border-radius: $base-border-radius;
   border: none;
-  color: #fff;
+  color: $light-gold;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
@@ -21,7 +21,7 @@ button {
   &:hover,
   &:focus {
     background-color: darken($action-color, 15%);
-    color: #fff;
+    color: $light-gold;
   }
 
   &:disabled {
@@ -36,7 +36,7 @@ button {
     width: 23%;
     margin: 0 0.2em;
     a {
-      color: #fff;
+      color: $light-gold;
     }
   }
 }
@@ -46,7 +46,7 @@ aside {
     cursor: pointer;
     display: inline-block;
     background: $action-color;
-    color: #fff;
+    color: $light-gold;
     padding: 0.6em 0.8em;
     margin: 0.5em 0;
     border: none;
@@ -55,7 +55,7 @@ aside {
     &:hover,
     &:focus {
       background-color: darken($action-color, 15%);
-      color: #fff;
+      color: $light-gold;
     }
 
     &:disabled {
