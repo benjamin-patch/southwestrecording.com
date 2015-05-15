@@ -45,7 +45,8 @@ aside {
   a {
     cursor: pointer;
     display: inline-block;
-    background: $light-gray;
+    background: $action-color;
+    color: #fff;
     padding: 0.6em 0.8em;
     margin: 0.5em 0;
     border: none;
@@ -53,7 +54,8 @@ aside {
 
     &:hover,
     &:focus {
-      background-color: darken($light-gray, 15%);
+      background-color: darken($action-color, 15%);
+      color: #fff;
     }
 
     &:disabled {

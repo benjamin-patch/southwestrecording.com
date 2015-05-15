@@ -6,8 +6,8 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
   @include selection {
-    background-color: $dark-gray;
-    color: $light-gray;
+    background-color: $action-color;
+    color: #fff;
   }
 }
 

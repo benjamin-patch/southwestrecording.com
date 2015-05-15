@@ -1,0 +1,16 @@
+html,
+body {
+  background: $light-gold;
+}
+
+section {
+  &:nth-child(even) {
+    background: $gold;
+  }
+}
+
+aside {
+  background: $soft-red;
+  color: #FFF;
+}
+
