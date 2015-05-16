@@ -1,5 +1,4 @@
 header,
-nav,
 article,
 section,
 aside,
@@ -7,14 +6,12 @@ footer {
   @include row();
 }
 
-.container,
-.nav-buttons {
+.container {
   @include outer-container;
   @include padding(1em);
 }
 
 header,
-nav,
 footer,
 .page-title {
   text-align: center;

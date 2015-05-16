@@ -1,0 +1,52 @@
+nav {
+  @include row();
+}
+
+.button {
+  display: inline-block;
+  background-color: $action-color;
+  color: $light-gold;
+  border: none;
+  border-radius: $base-border-radius;
+  padding: 0.5em 0.8em;
+  cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background-color: darken($action-color, 15%);
+      color: $light-gold;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+}
+
+.nav-buttons {
+  @include outer-container;
+  margin-top: 0.5em;
+  text-align: center;
+  li {
+    @include span-columns(6);
+    @include omega(even);
+    margin-bottom: 0.5em;
+
+    a {
+      @extend .button;
+      @include fill-parent;
+      padding: 0.2em 0;
+      font-size: 0.9em; 
+    }
+
+    &:nth-of-type(odd) a {
+      @include border-left-radius(0);
+      @include border-right-radius($base-border-radius);
+    }
+
+    &:nth-of-type(even) a {
+      @include border-left-radius($base-border-radius);
+      @include border-right-radius(0);
+    }
+  }
+}

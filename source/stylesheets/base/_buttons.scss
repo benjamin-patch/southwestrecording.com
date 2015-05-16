@@ -30,17 +30,6 @@ button {
   }
 }
 
-.nav-buttons {
-  li {
-    @extend button;
-    width: 23%;
-    margin: 0 0.2em;
-    a {
-      color: $light-gold;
-    }
-  }
-}
-
 aside {
   a {
     cursor: pointer;
