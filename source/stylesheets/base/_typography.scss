@@ -3,12 +3,15 @@ body {
   -webkit-font-smoothing: antialiased;
   color: $base-font-color;
   font-family: $base-font-family;
-  font-size: $base-font-size;
   font-weight: $base-font-weight;
   line-height: $base-line-height;
   @include selection {
     background-color: $action-color;
     color: #fff;
+  }
+  font-size: $base-small-font-size;
+  @include media($medium-screen-up) {
+    font-size: $base-font-size;
   }
 }
 
