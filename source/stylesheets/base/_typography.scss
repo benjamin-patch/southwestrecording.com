@@ -10,7 +10,7 @@ body {
     color: #fff;
   }
   font-size: $base-small-font-size;
-  @include media($medium-screen-up) {
+  @include media($medium-viewport-plus) {
     font-size: $base-font-size;
   }
 }

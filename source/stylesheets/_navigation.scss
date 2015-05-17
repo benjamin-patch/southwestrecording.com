@@ -28,9 +28,16 @@ nav {
   margin-top: 0.5em;
   text-align: center;
   li {
-    @include span-columns(6);
-    @include omega(even);
-    margin-bottom: 0.5em;
+    @include media($medium-viewport-minus) {
+      @include span-columns(6 of 12);
+      @include omega(even);
+      margin-bottom: 0.5em;
+    }
+
+    @include media($large-viewport-plus) {
+      @include span-columns(3 of 12);
+      margin-bottom: 0;
+    }
 
     a {
       @extend .button;
