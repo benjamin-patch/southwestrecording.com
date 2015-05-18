@@ -46,14 +46,28 @@ nav {
       font-size: 0.9em; 
     }
 
-    &:nth-of-type(odd) a {
-      @include border-left-radius(0);
-      @include border-right-radius($base-border-radius);
+    @include media($medium-viewport-minus) {
+
+      &:nth-of-type(odd) a {
+        @include border-left-radius(0);
+        @include border-right-radius($base-border-radius);
+      }
+
+      &:nth-of-type(even) a {
+        @include border-left-radius($base-border-radius);
+        @include border-right-radius(0);
+      }
     }
 
-    &:nth-of-type(even) a {
-      @include border-left-radius($base-border-radius);
-      @include border-right-radius(0);
+    @include media($large-viewport-only) {
+      
+      &:first-of-type a {
+        @include border-left-radius(0);
+      }
+
+      &:last-of-type a {
+        @include border-right-radius(0);
+      }
     }
   }
 }
