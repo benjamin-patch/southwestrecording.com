@@ -23,9 +23,9 @@ set :partials_dir, 'partials'
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-with_layout :interior do
-  page "/audio-services.html"
-end
+# with_layout :interior do
+#   page "/audio-services.html"
+# end
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
