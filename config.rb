@@ -68,6 +68,22 @@ helpers do
       "Untitled Page"
     end
   end
+
+  def testimonial
+    if current_page.data.testimonial.present?
+      current_page.data.testimonial
+    else
+      "Southwest Recording is the best!"
+    end
+  end
+
+  def client
+    if current_page.data.client.present?
+      current_page.data.client
+    else
+      "Anonymous"
+    end
+  end
 end
 
 set :css_dir, 'stylesheets'
