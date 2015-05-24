@@ -1,0 +1,16 @@
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  height: 22em; 
+  overflow: hidden;
+  background-color: $gold;
+  max-width: 2400px;
+  margin: 1em auto 0 auto;
+}
+
+#studio {
+  background-image: url(/images/studio-2354.jpg);
+}
