@@ -10,6 +10,7 @@ $max-width: 1400px;
 $medium-viewport: 640px;
 $large-viewport: 860px;
 
+$small-viewport-only: new-breakpoint(max-width 639px 4);
 $medium-viewport-minus: new-breakpoint(max-width 859px 4);
 $medium-viewport-plus: new-breakpoint(min-width $medium-viewport 4);
 $large-viewport-only: new-breakpoint(min-width $large-viewport max-width 1399px);

@@ -1,5 +1,36 @@
 <footer>
   <div class="container">
-    <p>&copy; <%= Time.now.year %> Southwest Recording</p>
+
+    <nav>
+      <ul>
+        <li>
+          <%= link_to "Home", "/" %>
+        </li>
+        <li>
+          <%= link_to "Services", "/services.html" %>
+        </li>
+        <li>
+          <%= link_to "Demos", "/demos.html" %>
+        </li>
+        <li>
+          <%= link_to "About", "/about.html" %>
+        </li>
+        <li>
+          <%= link_to "Contact", "/#" %>
+        </li>
+      </ul>
+    </nav>
+
+    <hr>
+
+    <p>&copy; <%= Time.now.year %> Southwest Recording Service</p>
+
+    <p>
+      Website Handcrafted by 
+      <%= link_to "Cascading Media", 
+                  "https://cascadingmedia.com/",
+                  target: "_blank" %>
+    </p>
+
   </div>
 </footer>

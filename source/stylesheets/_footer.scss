@@ -1,0 +1,13 @@
+footer li {
+  display: inline-block;
+  width: 100%;
+
+  @include media(min-width 300px max-width 425px) {
+    width: 32%;
+  }
+
+  @include media(min-width 426px) {
+    width: 19%;
+  }
+
+}
