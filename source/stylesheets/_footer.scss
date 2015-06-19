@@ -2,12 +2,12 @@ footer li {
   display: inline-block;
   width: 100%;
 
-  @include media(min-width 300px max-width 425px) {
+  @include media(min-width 340px max-width 950px) {
     width: 32%;
   }
 
-  @include media(min-width 426px) {
-    width: 19%;
+  @include media(min-width 951px) {
+    width: 16%;
   }
 
 }
