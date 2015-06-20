@@ -49,6 +49,23 @@ footer {
   p {
     text-align: left;
   }
+
+  @include media($large-viewport-plus) {
+    @include span-columns(6 of 12);
+    @include omega(even);
+  }
+
+  @include media(min-width $large-viewport max-width 1100px) {
+    p {
+      height: 213px;
+    }
+  }
+
+  @include media(min-width 1101px) {
+    p {
+      height: 142px;
+    }
+  }
 }
 
 blockquote {
