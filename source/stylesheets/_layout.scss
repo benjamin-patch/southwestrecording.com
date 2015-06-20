@@ -35,6 +35,22 @@ footer {
   text-align: center;
 }
 
+.preamble {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  padding-top: 0;
+  text-align: center;
+  border-radius: $base-border-radius;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
 blockquote {
   display: block;
   margin: 1em;
