@@ -59,7 +59,7 @@ helpers do
     if current_page.data.meta_description.present?
       current_page.data.meta_description
     else
-      "Default meta description for Southwest Recording."
+      "Southwest Recording provides the best audio products in the business, usually delivered the same business day. All for a refreshingly affordable price."
     end
   end
 
