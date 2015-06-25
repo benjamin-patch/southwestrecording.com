@@ -1,3 +1,3 @@
 # Southwest Recording
-  - Release: 3.0.0-dev
-  - Date: 01 May 2015
+  - Release: 3.0.0
+  - Date: 23 June 2015
