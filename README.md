@@ -19,6 +19,12 @@ Public website for southwestrecording.com, built with [Middleman](https://middle
 
 ## Release Notes
 
+### 3.0.5
+  - 04 June 2019
+  - Update main console to Soundcraft GB8-32.
+  - Remove fax number and Behringer ADA 8000.
+  - Versions 3.0.3-4 minor content updates not noted here.
+
 ### 3.0.2
   - 18 July 2016
   - Update console image and equipment list.
