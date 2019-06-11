@@ -12,8 +12,13 @@ Public website for southwestrecording.com, built with [Middleman](https://middle
 ### Node.js for Middleman Server
 * https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
 
-### Local Filepath
-* /mnt/c/websites/southwestrecording.com
+### Windows 10 Development and Deployment Commands
+* $ cd /mnt/c/websites/southwestrecording.com
+* $ bundle exec middleman server
+* dev URL: http://localhost:4567/
+* $ bundle exec middleman build
+* $ bundle exec middleman deploy
+* In most cases, 'bundle exec' is not needed.
 
 ---
 
