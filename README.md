@@ -19,6 +19,10 @@ Public website for southwestrecording.com, built with [Middleman](https://middle
 
 ## Release Notes
 
+### 3.0.6
+  - 11 June 2019
+  - Update to Pro Tools | Ultimate.
+
 ### 3.0.5
   - 04 June 2019
   - Update main console to Soundcraft GB8-32.
